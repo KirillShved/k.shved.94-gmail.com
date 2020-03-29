@@ -1,4 +1,4 @@
-# vue-guide-video
+# vue-guide
 
 ## Project setup
 ```
