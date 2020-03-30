@@ -8,9 +8,11 @@
     />
     <hr>
     <TodoList
-       v-bind:todos="todos"
-       @remove-todo-item="removeTodoItem"
+      v-if="todos.length"
+      v-bind:todos="todos"
+      @remove-todo-item="removeTodoItem"
     />
+    <p v-else>No todos!</p>
   </div>
 </template>
 
